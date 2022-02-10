@@ -6,6 +6,7 @@ from dash.dependencies import Input, Output
  
 USERNAME_PASSWORD_PAIRS = [
     ['nethu', '12345'],['guvi', 'guvi'],['vignesh','vignesh']
+]
  
 app = dash.Dash()
 auth = dash_auth.BasicAuth(app,USERNAME_PASSWORD_PAIRS)
