@@ -5,8 +5,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
  
 USERNAME_PASSWORD_PAIRS = [
-    ['nethu', '12345'],['guvi', 'guvi']
-]
+    ['nethu', '12345'],['guvi', 'guvi'],['vignesh','vignesh']
  
 app = dash.Dash()
 auth = dash_auth.BasicAuth(app,USERNAME_PASSWORD_PAIRS)
